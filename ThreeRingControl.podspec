@@ -89,7 +89,7 @@ s.resources    = "ThreeRingControl/*.mp3"
 
 
 
-echo "3.0" > .swift-version
-# s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end
