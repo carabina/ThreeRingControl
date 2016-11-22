@@ -73,7 +73,7 @@ s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl", :tag
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
+s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
