@@ -22,8 +22,8 @@ s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl", :tag
 
 
 
-s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h}"
-s.exclude_files = "ThreeRingControl/**/*.{swift}"
+s.source_files = ["ThreeRingControl", "ThreeRingControl/**/*.{h}", "ThreeRingControl/*.{h}"]
+s.exclude_files = ["ThreeRingControl/**/*.{swift}", "ThreeRingControl/*.{swift}"]
 
 s.resources    = "ThreeRingControl/*.mp3"
 
