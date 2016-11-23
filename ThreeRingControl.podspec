@@ -20,7 +20,7 @@ s.platform     = :ios, "10.0"
 
 s.vendored_frameworks = 'ThreeRingControl.framework'
 
-s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl", :tag => "1.0.0" }
+#s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl", :tag => "1.0.0" }
 
 
 
