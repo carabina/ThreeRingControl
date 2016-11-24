@@ -9,25 +9,22 @@ s.description  = "The three-ring is a completely customizable widget that can be
 s.homepage     = "http://raywenderlich.com"
 
 
-s.license      = "MIT"
+#s.license      = "MIT"
+s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
-
-
-  s.author             = { "Leonardo Saganski" => "leonardo.saganski@ewave.com.br" }
-
+s.author             = { "Leonardo Saganski" => "leonardo.saganski@ewave.com.br" }
 
 s.platform     = :ios, "10.0"
 
 s.vendored_frameworks = 'ThreeRingControl.framework'
 
-#s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/lsaganski/ThreeRingControl/ThreeRingControl.zip", :tag => "1.0.0" }
 
 
+#s.source_files = ["ThreeRingControl", "ThreeRingControl/**/*.{h}", "ThreeRingControl/*.{h}"]
+#s.exclude_files = ["ThreeRingControl/**/*.{swift}", "ThreeRingControl/*.{swift}"]
 
-s.source_files = ["ThreeRingControl", "ThreeRingControl/**/*.{h}", "ThreeRingControl/*.{h}"]
-s.exclude_files = ["ThreeRingControl/**/*.{swift}", "ThreeRingControl/*.{swift}"]
-
-s.resources    = "ThreeRingControl/*.mp3"
+#s.resources    = "ThreeRingControl/*.mp3"
 
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
