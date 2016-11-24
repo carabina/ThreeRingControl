@@ -1,2 +1,0 @@
-# ThreeRingControl
-A ThreeRingControl test
