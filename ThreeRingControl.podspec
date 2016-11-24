@@ -16,10 +16,10 @@ s.author             = { "Leonardo Saganski" => "leonardo.saganski@ewave.com.br"
 
 s.platform     = :ios, "10.0"
 
-s.vendored_frameworks = 'ThreeRingControl.framework'
 
-s.source       = { :http => "https://github.com/lsaganski/ThreeRingControl/blob/master/ThreeRingControl.zip" }
+s.source       = { :http => "http://www.mobila.com.br/ThreeRingControl.zip" }
 
+s.ios.vendored_frameworks = 'ThreeRingControl.framework'
 
 #s.source_files = ["ThreeRingControl", "ThreeRingControl/**/*.{h}", "ThreeRingControl/*.{h}"]
 #s.exclude_files = ["ThreeRingControl/**/*.{swift}", "ThreeRingControl/*.{swift}"]
