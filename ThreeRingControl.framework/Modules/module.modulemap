@@ -1,0 +1,10 @@
+framework module ThreeRingControl {
+  umbrella header "ThreeRingControl.h"
+
+  export *
+  module * { export * }
+}
+
+module ThreeRingControl.Swift {
+    header "ThreeRingControl-Swift.h"
+}
